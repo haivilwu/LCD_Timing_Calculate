@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <stdio.h>
 namespace Ui {
 class MainWindow;
 }
@@ -14,6 +14,8 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+     getHswValue();
+
 
 private:
     Ui::MainWindow *ui;
@@ -22,7 +24,8 @@ private:
 private slots:
 
     void  on_btnCal_clicked();
-    void on_btnCal_pressed();
+    //void on_btnCal_pressed();
+   // void on_lineEdit_HSW_textChanged(const QString &arg1);
 };
 
 #endif // MAINWINDOW_H

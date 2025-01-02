@@ -396,7 +396,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Frame Rate = Pclk Frequency/Htotal/Vtotal*10^6</string>
+     <string>Frame Rate = Pclk Frequency/Htotal/Vtotal</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_bitclk">
@@ -529,7 +529,7 @@
      </font>
     </property>
     <property name="text">
-     <string>HSync=PCLK/Htotal</string>
+     <string>HSync=PCLK/Htotal/1000</string>
     </property>
    </widget>
    <widget class="Line" name="line">
